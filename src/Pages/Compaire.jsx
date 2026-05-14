@@ -1,0 +1,233 @@
+import Footer from "../Commen/Footer";
+import Header from "../Commen/Header";
+
+function Compaire(){
+    return(
+        <>
+        <Header/>
+        <Component/>
+        <Footer/>
+        </>
+    )
+    
+}
+function Component() {
+   window.scrollTo({
+    top:0,
+    left:0,
+    behavior:"smooth"
+  })
+    return(
+        <>
+        
+<div>
+  {/*------------- blog-tittle-section--------------*/}
+  <section className="blog about-blog">
+    <div className="container">
+      <div className="blog-bradcrum">
+        <span><a href="index.html">Home</a></span>
+        <span className="devider">/</span>
+        <span><a href="#">Compaire</a></span>
+      </div>
+      <div className="blog-heading">
+        <h1 className="heading">Product Comparison</h1>
+      </div>
+    </div>
+  </section>
+  {/*------------- blog-tittle-section-end--------------*/}
+  {/*------------- comaprison-section--------------*/}
+  <section className="product-cart product product-compair footer-padding">
+    <div className="container">
+      <div className="cart-section">
+        <table>
+          <tbody>
+            <tr className="cart-top">
+              <td className=" cart-item cart-grey-bg vertical-cart">
+                <div className="wrapper-title">
+                  <h5 className="comment-title">Product Comparison</h5>
+                  <p className="paragraph">Select products to see the differences and similarities between
+                    them</p>
+                </div>
+              </td>
+              <td className="cart-center cart-item">
+                <div className="wrapper-data">
+                  <div className="search">
+                    <input type="text" />
+                    <span>
+                      <svg width={17} height={17} viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fillRule="evenodd" clipRule="evenodd" d="M11.0821 12.2955C10.0273 13.0961 8.71195 13.5712 7.2856 13.5712C3.81416 13.5712 1 10.757 1 7.2856C1 3.81416 3.81416 1 7.2856 1C10.757 1 13.5712 3.81416 13.5712 7.2856C13.5712 8.97024 12.9085 10.5001 11.8295 11.6286L11.6368 11.436L10.9297 12.1431L11.0821 12.2955ZM11.795 13.0084C10.5546 13.9871 8.98829 14.5712 7.2856 14.5712C3.26187 14.5712 0 11.3093 0 7.2856C0 3.26187 3.26187 0 7.2856 0C11.3093 0 14.5712 3.26187 14.5712 7.2856C14.5712 9.24638 13.7966 11.0263 12.5367 12.3359L16.4939 16.293L15.7868 17.0001L11.795 13.0084Z">
+                        </path>
+                      </svg>
+                    </span>
+                  </div>
+                  <div className="wrapper">
+                    <div className="wrapper-img">
+                      <img src="assets/images/homepage-one/product-img/product-img-1.webp" alt />
+                    </div>
+                    <div className="wrapper-content">
+                      <h5 className="wrapper-details">Leather</h5>
+                      <div className="price">
+                        <span className="new-price">$6.99</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </td>
+              <td className="cart-center cart-item">
+                <div className="wrapper-data">
+                  <div className="search">
+                    <input type="text" />
+                    <span>
+                      <svg width={17} height={17} viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fillRule="evenodd" clipRule="evenodd" d="M11.0821 12.2955C10.0273 13.0961 8.71195 13.5712 7.2856 13.5712C3.81416 13.5712 1 10.757 1 7.2856C1 3.81416 3.81416 1 7.2856 1C10.757 1 13.5712 3.81416 13.5712 7.2856C13.5712 8.97024 12.9085 10.5001 11.8295 11.6286L11.6368 11.436L10.9297 12.1431L11.0821 12.2955ZM11.795 13.0084C10.5546 13.9871 8.98829 14.5712 7.2856 14.5712C3.26187 14.5712 0 11.3093 0 7.2856C0 3.26187 3.26187 0 7.2856 0C11.3093 0 14.5712 3.26187 14.5712 7.2856C14.5712 9.24638 13.7966 11.0263 12.5367 12.3359L16.4939 16.293L15.7868 17.0001L11.795 13.0084Z">
+                        </path>
+                      </svg>
+                    </span>
+                  </div>
+                  <div className="wrapper">
+                    <div className="wrapper-img">
+                      <img src="assets/images/homepage-one/product-img/product-img-2.webp" alt />
+                    </div>
+                    <div className="wrapper-content">
+                      <h5 className="wrapper-details">Bags</h5>
+                      <div className="price">
+                        <span className="new-price">$8.99</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </td>
+              <td className="cart-center cart-item">
+                <div className="wrapper-data">
+                  <div className="search">
+                    <input type="text" />
+                    <span>
+                      <svg width={17} height={17} viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fillRule="evenodd" clipRule="evenodd" d="M11.0821 12.2955C10.0273 13.0961 8.71195 13.5712 7.2856 13.5712C3.81416 13.5712 1 10.757 1 7.2856C1 3.81416 3.81416 1 7.2856 1C10.757 1 13.5712 3.81416 13.5712 7.2856C13.5712 8.97024 12.9085 10.5001 11.8295 11.6286L11.6368 11.436L10.9297 12.1431L11.0821 12.2955ZM11.795 13.0084C10.5546 13.9871 8.98829 14.5712 7.2856 14.5712C3.26187 14.5712 0 11.3093 0 7.2856C0 3.26187 3.26187 0 7.2856 0C11.3093 0 14.5712 3.26187 14.5712 7.2856C14.5712 9.24638 13.7966 11.0263 12.5367 12.3359L16.4939 16.293L15.7868 17.0001L11.795 13.0084Z">
+                        </path>
+                      </svg>
+                    </span>
+                  </div>
+                  <div className="wrapper">
+                    <div className="wrapper-img">
+                      <img src="assets/images/homepage-one/product-img/product-img-3.webp" alt />
+                    </div>
+                    <div className="wrapper-content">
+                      <h5 className="wrapper-details">Shoe</h5>
+                      <div className="price">
+                        <span className="new-price">$10.99</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </td>
+            </tr>
+            <tr className="cart-top cart-bottom ">
+              <td className=" cart-item cart-grey-bg">
+                <div className="wrapper-title">
+                  <h5 className="comment-title">Star Rating</h5>
+                </div>
+              </td>
+              <td className=" cart-item">
+                <div className="wrapper-data">
+                  <div className="ratings">
+                    <span>
+                      <svg width={90} height={18} viewBox="0 0 90 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9 0L11.0206 6.21885H17.5595L12.2694 10.0623L14.2901 16.2812L9 12.4377L3.70993 16.2812L5.73056 10.0623L0.440492 6.21885H6.97937L9 0Z" fill="#FFA800" />
+                        <path d="M27 0L29.0206 6.21885H35.5595L30.2694 10.0623L32.2901 16.2812L27 12.4377L21.7099 16.2812L23.7306 10.0623L18.4405 6.21885H24.9794L27 0Z" fill="#FFA800" />
+                        <path d="M45 0L47.0206 6.21885H53.5595L48.2694 10.0623L50.2901 16.2812L45 12.4377L39.7099 16.2812L41.7306 10.0623L36.4405 6.21885H42.9794L45 0Z" fill="#FFA800" />
+                        <path d="M63 0L65.0206 6.21885H71.5595L66.2694 10.0623L68.2901 16.2812L63 12.4377L57.7099 16.2812L59.7306 10.0623L54.4405 6.21885H60.9794L63 0Z" fill="#FFA800" />
+                        <path d="M81 0L83.0206 6.21885H89.5595L84.2694 10.0623L86.2901 16.2812L81 12.4377L75.7099 16.2812L77.7306 10.0623L72.4405 6.21885H78.9794L81 0Z" fill="#FFA800" />
+                      </svg>
+                    </span>
+                  </div>
+                </div>
+              </td>
+              <td className="cart-item">
+                <div className="wrapper-data">
+                  <div className="ratings">
+                    <span>
+                      <svg width={90} height={18} viewBox="0 0 90 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9 0L11.0206 6.21885H17.5595L12.2694 10.0623L14.2901 16.2812L9 12.4377L3.70993 16.2812L5.73056 10.0623L0.440492 6.21885H6.97937L9 0Z" fill="#FFA800" />
+                        <path d="M27 0L29.0206 6.21885H35.5595L30.2694 10.0623L32.2901 16.2812L27 12.4377L21.7099 16.2812L23.7306 10.0623L18.4405 6.21885H24.9794L27 0Z" fill="#FFA800" />
+                        <path d="M45 0L47.0206 6.21885H53.5595L48.2694 10.0623L50.2901 16.2812L45 12.4377L39.7099 16.2812L41.7306 10.0623L36.4405 6.21885H42.9794L45 0Z" fill="#FFA800" />
+                        <path d="M63 0L65.0206 6.21885H71.5595L66.2694 10.0623L68.2901 16.2812L63 12.4377L57.7099 16.2812L59.7306 10.0623L54.4405 6.21885H60.9794L63 0Z" fill="#FFA800" />
+                        <path d="M81 0L83.0206 6.21885H89.5595L84.2694 10.0623L86.2901 16.2812L81 12.4377L75.7099 16.2812L77.7306 10.0623L72.4405 6.21885H78.9794L81 0Z" fill="#FFA800" />
+                      </svg>
+                    </span>
+                  </div>
+                </div>
+              </td>
+              <td className="cart-item">
+                <div className="wrapper-data">
+                  <div className="ratings">
+                    <span>
+                      <svg width={90} height={18} viewBox="0 0 90 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9 0L11.0206 6.21885H17.5595L12.2694 10.0623L14.2901 16.2812L9 12.4377L3.70993 16.2812L5.73056 10.0623L0.440492 6.21885H6.97937L9 0Z" fill="#FFA800" />
+                        <path d="M27 0L29.0206 6.21885H35.5595L30.2694 10.0623L32.2901 16.2812L27 12.4377L21.7099 16.2812L23.7306 10.0623L18.4405 6.21885H24.9794L27 0Z" fill="#FFA800" />
+                        <path d="M45 0L47.0206 6.21885H53.5595L48.2694 10.0623L50.2901 16.2812L45 12.4377L39.7099 16.2812L41.7306 10.0623L36.4405 6.21885H42.9794L45 0Z" fill="#FFA800" />
+                        <path d="M63 0L65.0206 6.21885H71.5595L66.2694 10.0623L68.2901 16.2812L63 12.4377L57.7099 16.2812L59.7306 10.0623L54.4405 6.21885H60.9794L63 0Z" fill="#FFA800" />
+                        <path d="M81 0L83.0206 6.21885H89.5595L84.2694 10.0623L86.2901 16.2812L81 12.4377L75.7099 16.2812L77.7306 10.0623L72.4405 6.21885H78.9794L81 0Z" fill="#FFA800" />
+                      </svg>
+                    </span>
+                  </div>
+                </div>
+              </td>
+            </tr>
+            <tr className="cart-top cart-bottom ">
+              <td className=" cart-item cart-grey-bg">
+                <div className="wrapper-title">
+                  <h5 className="comment-title">Availability</h5>
+                </div>
+              </td>
+              <td className=" cart-item">
+                <div className="wrapper-data">
+                  <p className="stock">In Stock</p>
+                </div>
+              </td>
+              <td className=" cart-item">
+                <div className="wrapper-data">
+                  <p className="stock">In Stock</p>
+                </div>
+              </td>
+              <td className=" cart-item">
+                <div className="wrapper-data">
+                  <p className="stock">In Stock</p>
+                </div>
+              </td>
+            </tr>
+            <tr className="cart-top cart-bottom ">
+              <td className=" cart-item cart-grey-bg">
+                <div className="wrapper-title">
+                  <h5 className="comment-title">Specification</h5>
+                </div>
+              </td>
+              <td className=" cart-item">
+                <div className="wrapper-data">
+                  <p>N/A</p>
+                </div>
+              </td>
+              <td className=" cart-item">
+                <div className="wrapper-data">
+                  <p>N/A</p>
+                </div>
+              </td>
+              <td className=" cart-item">
+                <div className="wrapper-data">
+                  <p>N/A</p>
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+  {/*------------- comaprison-section--------------*/}
+</div>
+
+        </>
+    )
+    
+}
+export default Compaire;
