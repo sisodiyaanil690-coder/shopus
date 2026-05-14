@@ -19,21 +19,7 @@ function Component() {
   })
   return (
     <>
-      <div>
-        {/*------------- blog-tittle-section--------------*/}
-        {/* <section className="blog about-blog">
-    <div className="container">
-      <div className="blog-bradcrum">
-        <span><a href="index.html">Home</a></span>
-        <span className="devider">/</span>
-        <span><a href="#">Contact</a></span>
-      </div>
-      <div className="blog-heading about-heading">
-        <h1 className="heading">Contact</h1>
-      </div>
-    </div>
-  </section> */}
-
+      <>
         <Bradecrom name={"Contact"} />
         {/*------------- blog-tittle-section-end--------------*/}
         {/*------------- contact-section--------------*/}
@@ -262,7 +248,7 @@ function Component() {
           </div>
         </section>
         {/*------------- contact-section-end--------------*/}
-      </div>
+      </>
     </>
   );
 }

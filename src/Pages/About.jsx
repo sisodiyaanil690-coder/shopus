@@ -5,20 +5,20 @@ import Bradecrom from "../Commen/Bradecrom";
 
 function About() {
   return <>
-  <Header/>
-  <Component1/>
-  <Component2/>
-  <Component3/>
-  <Component4/>
-  <Footer/>
+    <Header />
+    <Component1 />
+    <Component2 />
+    <Component3 />
+    <Component4 />
+    <Footer />
   </>;
 }
 
 function Component1() {
-   window.scrollTo({
-    top:0,
-    left:0,
-    behavior:"smooth"
+  window.scrollTo({
+    top: 0,
+    left: 0,
+    behavior: "smooth"
   })
   return (
     <>
@@ -39,7 +39,7 @@ function Component1() {
           </div>
         </div>
       </section> */}
-      <Bradecrom name={"About"}/>
+      <Bradecrom name={"About"} />
       {/*------------- blog-tittle-section-end--------------*/}
     </>
   );
@@ -419,7 +419,7 @@ function Component4() {
       <div>
         {/*------------- about-slider-section--------------*/}
         <section className="about-feedback product">
-         
+
         </section>
         {/*------------- about-slider-section-end--------------*/}
         {/*------------- latest-news-section--------------*/}

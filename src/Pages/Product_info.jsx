@@ -30,7 +30,7 @@ function Component1() {
   console.log("log single products", singleProduct);
 
   useEffect(() => {
-      window.scrollTo({
+    window.scrollTo({
       top: 0,
       left: 0,
       behavior: "smooth",
@@ -61,7 +61,7 @@ function Component1() {
                 <div className="col-md-6">
                   <div className="product-info-img" data-aos="fade-right">
                     <div className="swiper product-top">
-                     
+
                       <div className="swiper-wrapper">
                         <div className="swiper-slide slider-top-img">
                           <img src={singleProduct.thumbnail} alt="img" />
@@ -71,82 +71,82 @@ function Component1() {
                   </div>
                 </div>
               }
-           {
-               <div className="col-md-6">
-                <div className="product-info-content" data-aos="fade-left">
-                  <span className="wrapper-subtitle">{singleProduct.brand}</span>
-                  <h5>{singleProduct.title}</h5>
-                  <div className="ratings">
-                    <span>
-                      <svg
-                        width={75}
-                        height={15}
-                        viewBox="0 0 75 15"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M7.5 0L9.18386 5.18237H14.6329L10.2245 8.38525L11.9084 13.5676L7.5 10.3647L3.09161 13.5676L4.77547 8.38525L0.367076 5.18237H5.81614L7.5 0Z"
-                          fill="#FFA800"
-                        />
-                        <path
-                          d="M22.5 0L24.1839 5.18237H29.6329L25.2245 8.38525L26.9084 13.5676L22.5 10.3647L18.0916 13.5676L19.7755 8.38525L15.3671 5.18237H20.8161L22.5 0Z"
-                          fill="#FFA800"
-                        />
-                        <path
-                          d="M37.5 0L39.1839 5.18237H44.6329L40.2245 8.38525L41.9084 13.5676L37.5 10.3647L33.0916 13.5676L34.7755 8.38525L30.3671 5.18237H35.8161L37.5 0Z"
-                          fill="#FFA800"
-                        />
-                        <path
-                          d="M52.5 0L54.1839 5.18237H59.6329L55.2245 8.38525L56.9084 13.5676L52.5 10.3647L48.0916 13.5676L49.7755 8.38525L45.3671 5.18237H50.8161L52.5 0Z"
-                          fill="#FFA800"
-                        />
-                        <path
-                          d="M67.5 0L69.1839 5.18237H74.6329L70.2245 8.38525L71.9084 13.5676L67.5 10.3647L63.0916 13.5676L64.7755 8.38525L60.3671 5.18237H65.8161L67.5 0Z"
-                          fill="#FFA800"
-                        />
-                      </svg>
-                    </span>
-                    <span className="text">{singleProduct.rating} Reviews</span>
-                  </div>
-                  <div className="price">
-                    {/* <span className="price-cut">${singleProduct.price}</span> */}
-                    <span className="new-price">₹{singleProduct.price}</span>
-                  </div>
-                  <p className="content-paragraph">
-                    It is a long established fact that a reader will be
-                    distracted by{" "}
-                    <span className="inner-text">
-                      the readable there content of a page.
-                    </span>
-                  </p>
-                  <hr />
-                  <div className="product-availability">
-                    <span>Availabillity : </span>
-                    <span className="inner-text">{singleProduct.stock} Products Available</span>
-                  </div>
-                 
+              {
+                <div className="col-md-6">
+                  <div className="product-info-content" data-aos="fade-left">
+                    <span className="wrapper-subtitle">{singleProduct.brand}</span>
+                    <h5>{singleProduct.title}</h5>
+                    <div className="ratings">
+                      <span>
+                        <svg
+                          width={75}
+                          height={15}
+                          viewBox="0 0 75 15"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M7.5 0L9.18386 5.18237H14.6329L10.2245 8.38525L11.9084 13.5676L7.5 10.3647L3.09161 13.5676L4.77547 8.38525L0.367076 5.18237H5.81614L7.5 0Z"
+                            fill="#FFA800"
+                          />
+                          <path
+                            d="M22.5 0L24.1839 5.18237H29.6329L25.2245 8.38525L26.9084 13.5676L22.5 10.3647L18.0916 13.5676L19.7755 8.38525L15.3671 5.18237H20.8161L22.5 0Z"
+                            fill="#FFA800"
+                          />
+                          <path
+                            d="M37.5 0L39.1839 5.18237H44.6329L40.2245 8.38525L41.9084 13.5676L37.5 10.3647L33.0916 13.5676L34.7755 8.38525L30.3671 5.18237H35.8161L37.5 0Z"
+                            fill="#FFA800"
+                          />
+                          <path
+                            d="M52.5 0L54.1839 5.18237H59.6329L55.2245 8.38525L56.9084 13.5676L52.5 10.3647L48.0916 13.5676L49.7755 8.38525L45.3671 5.18237H50.8161L52.5 0Z"
+                            fill="#FFA800"
+                          />
+                          <path
+                            d="M67.5 0L69.1839 5.18237H74.6329L70.2245 8.38525L71.9084 13.5676L67.5 10.3647L63.0916 13.5676L64.7755 8.38525L60.3671 5.18237H65.8161L67.5 0Z"
+                            fill="#FFA800"
+                          />
+                        </svg>
+                      </span>
+                      <span className="text">{singleProduct.rating} Reviews</span>
+                    </div>
+                    <div className="price">
+                      {/* <span className="price-cut">${singleProduct.price}</span> */}
+                      <span className="new-price">₹{singleProduct.price}</span>
+                    </div>
+                    <p className="content-paragraph">
+                      It is a long established fact that a reader will be
+                      distracted by{" "}
+                      <span className="inner-text">
+                        the readable there content of a page.
+                      </span>
+                    </p>
+                    <hr />
+                    <div className="product-availability">
+                      <span>Availabillity : </span>
+                      <span className="inner-text">{singleProduct.stock} Products Available</span>
+                    </div>
 
-                  <hr />
-                  <div className="product-details">
-                    <p className="category">
-                      Category : <span className="inner-text">{singleProduct.category}</span>
-                    </p>
-                    <p className="tags">
-                      Tags : <span className="inner-text">{singleProduct.tags}</span>
-                    </p>
-                    <p className="sku">
-                      SKU : <span className="inner-text">{singleProduct.sku}</span>
-                    </p>
-                  </div>
-                  <hr />
-                  <div className="product-report">
-                    <a
-                      href="#"
-                      className="report"
-                      onclick="modalAction('.action')"
-                    >
-                      {/* <span>
+
+                    <hr />
+                    <div className="product-details">
+                      <p className="category">
+                        Category : <span className="inner-text">{singleProduct.category}</span>
+                      </p>
+                      <p className="tags">
+                        Tags : <span className="inner-text">{singleProduct.tags}</span>
+                      </p>
+                      <p className="sku">
+                        SKU : <span className="inner-text">{singleProduct.sku}</span>
+                      </p>
+                    </div>
+                    <hr />
+                    <div className="product-report">
+                      <a
+                        href="#"
+                        className="report"
+                        onclick="modalAction('.action')"
+                      >
+                        {/* <span>
                         <svg
                           width={15}
                           height={16}
@@ -160,18 +160,18 @@ function Component1() {
                           />
                         </svg>
                       </span> */}
-                      {/* <span>Report This Item</span> */}
-                    </a>
-                    {/* modal */}
-                    <div className="modal-wrapper action">
-                      <div
-                        onclick="modalAction('.action')"
-                        className="anywhere-away"
-                      />
-                      {/* change this */}
-                      <div className="login-section account-section modal-main">
-                        <div className="review-form">
-                          {/* <div className="review-content">
+                        {/* <span>Report This Item</span> */}
+                      </a>
+                      {/* modal */}
+                      <div className="modal-wrapper action">
+                        <div
+                          onclick="modalAction('.action')"
+                          className="anywhere-away"
+                        />
+                        {/* change this */}
+                        <div className="login-section account-section modal-main">
+                          <div className="review-form">
+                            {/* <div className="review-content">
                             <h5 className="comment-title">Report Products</h5>
                             <div className="close-btn">
                               <img
@@ -181,7 +181,7 @@ function Component1() {
                               />
                             </div>
                           </div> */}
-                          {/* <div className="review-form-name address-form">
+                            {/* <div className="review-form-name address-form">
                             <label htmlFor="reporttitle" className="form-label">
                               Enter Report Ttile*
                             </label>
@@ -206,21 +206,21 @@ function Component1() {
                               defaultValue={""}
                             />
                           </div> */}
-                          <div className="login-btn text-center">
-                            <a
-                              href="#"
-                              onclick="modalAction('.action')"
-                              className="shop-btn"
-                            >
-                              Submit Report
-                            </a>
+                            <div className="login-btn text-center">
+                              <a
+                                href="#"
+                                onclick="modalAction('.action')"
+                                className="shop-btn"
+                              >
+                                Submit Report
+                              </a>
+                            </div>
                           </div>
                         </div>
+                        {/* change this */}
                       </div>
-                      {/* change this */}
                     </div>
-                  </div>
-                  {/* <div className="product-share">
+                    {/* <div className="product-share">
                     <p>Share This:</p>
                     <div className="social-icons">
                       <a href="#">
@@ -273,9 +273,9 @@ function Component1() {
                       </a>
                     </div>
                   </div> */}
+                  </div>
                 </div>
-              </div>
-           }
+              }
             </div>
           </div>
         </div>
@@ -366,25 +366,25 @@ function Component1() {
               >
                 <div className="product-review-section" data-aos="fade-up">
                   <h5 className="intro-heading">Reviews</h5>
-                 {
-                  singleProduct.reviews?.map((value)=>{
-                    return(
-                       <div className="review-wrapper">
-                    <div className="wrapper">
-                      <div className="wrapper-aurthor">
-                        <div className="wrapper-info">
-                          <div className="aurthor-img">
-                            <img
-                              src="../assets/images/homepage-one/aurthor-img-1.webp"
-                              alt="aurthor-img"
-                            />
-                          </div>
-                          <div className="author-details">
-                            <h5>{value.reviewerName}</h5>
-                            <p>{value.reviewerEmail}</p>
-                          </div>
-                        </div>
-                        {/* <div className="ratings">
+                  {
+                    singleProduct.reviews?.map((value) => {
+                      return (
+                        <div className="review-wrapper">
+                          <div className="wrapper">
+                            <div className="wrapper-aurthor">
+                              <div className="wrapper-info">
+                                <div className="aurthor-img">
+                                  <img
+                                    src="../assets/images/homepage-one/aurthor-img-1.webp"
+                                    alt="aurthor-img"
+                                  />
+                                </div>
+                                <div className="author-details">
+                                  <h5>{value.reviewerName}</h5>
+                                  <p>{value.reviewerEmail}</p>
+                                </div>
+                              </div>
+                              {/* <div className="ratings">
                           <span>
                             <svg
                               width={75}
@@ -417,18 +417,18 @@ function Component1() {
                           </span>
                           <span>(5.0)</span>
                         </div> */}
-                      </div>
-                      <div className="wrapper-description">
-                        <p className="wrapper-details">
-                         {value.comment}
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                    )
+                            </div>
+                            <div className="wrapper-description">
+                              <p className="wrapper-details">
+                                {value.comment}
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      )
 
-                  })
-                 }
+                    })
+                  }
                 </div>
               </div>
             </div>
@@ -445,25 +445,25 @@ function Component2() {
 }
 
 function Component3() {
-  let [product,setProduct] = useState([]);
-async function Productlist() {
-  try{
-let respon = await axios.get("https://dummyjson.com/products");
-setProduct(respon.data.products)
-  }catch(error){
-    console.log(error);
-    
+  let [product, setProduct] = useState([]);
+  async function Productlist() {
+    try {
+      let respon = await axios.get("https://dummyjson.com/products");
+      setProduct(respon.data.products)
+    } catch (error) {
+      console.log(error);
+
+    }
+
   }
-  
-}
-useEffect(()=>{
-   window.scrollTo({
+  useEffect(() => {
+    window.scrollTo({
       top: 0,
       left: 0,
       behavior: "smooth",
     });
-Productlist();
-},[])
+    Productlist();
+  }, [])
 
   return (
     <>
@@ -478,19 +478,19 @@ Productlist();
           </div>
           <div className="weekly-sale-section">
             <div className="row g-5">
-             {
-              product.slice(0,4).map((value)=>{
-                return(
-                   <div className="col-lg-3 col-md-6">
-                <div className="product-wrapper" data-aos="fade-up">
-                  <div className="product-img">
-                   
-                   <Link to={`/Product-info/${value.id}`}> <img
-                          src={value.thumbnail}
-                          alt="product-img"
-                        /></Link>
-                    <div className="product-cart-items">
-                      {/* <a href="#" className="cart cart-item">
+              {
+                product.slice(0, 4).map((value) => {
+                  return (
+                    <div className="col-lg-3 col-md-6">
+                      <div className="product-wrapper" data-aos="fade-up">
+                        <div className="product-img">
+
+                          <Link to={`/Product-info/${value.id}`}> <img
+                            src={value.thumbnail}
+                            alt="product-img"
+                          /></Link>
+                          <div className="product-cart-items">
+                            {/* <a href="#" className="cart cart-item">
                         <span>
                           <svg
                             width={40}
@@ -539,35 +539,35 @@ Productlist();
                           </svg>
                         </span>
                       </a> */}
-                    
-                      
-                    </div>
-                  </div>
-                  <div className="product-info">
 
 
-                    <div className="product-description">
-                      <a href="product-info.html" className="product-details">
-                        {value.title}
-                      </a>
-                      <div className="price">
-                        {/* <span className="price-cut">$32.99</span> */}
-                        <span className="new-price">₹{value.discountPercentage}</span>
+                          </div>
+                        </div>
+                        <div className="product-info">
+
+
+                          <div className="product-description">
+                            <a href="product-info.html" className="product-details">
+                              {value.title}
+                            </a>
+                            <div className="price">
+                              {/* <span className="price-cut">$32.99</span> */}
+                              <span className="new-price">₹{value.discountPercentage}</span>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="product-cart-btn">
+                          <Link to={`/Product-info/${value.id}`} className="product-btn">
+                            View Details
+                          </Link>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                  <div className="product-cart-btn">
-                    <Link to={`/Product-info/${value.id}`}className="product-btn">
-                      View Details
-                    </Link>
-                  </div>
-                </div>
-              </div>
-             
-                )
-              })
-             }
-             
+
+                  )
+                })
+              }
+
             </div>
           </div>
         </div>

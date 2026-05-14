@@ -14,27 +14,27 @@ import Term from "./Pages/Term";
 
 function App() {
   return <>
-  
-  
-  
-<BrowserRouter>
-<Routes>
-    <Route path="/" element={<Home/>}/>
-    <Route path="/Product-Sidebar" element={<ProductSidebar/>}/>
-    <Route path="/About" element={<About/>}/>
-    <Route path="/Blogs" element={<Blog/>}/>
-    <Route path="/User-Profile" element={<UserProfile/>}/>
-    <Route path="/compaire" element={<Compaire/>}/>
-    <Route path="/Order" element={<Order/>}/>
-    <Route path="/Contact" element={<Contact/>}/> 
-    <Route path="/Product-info/:id" element={<ProductInfo/>}/>
-    <Route path="/productsidebar/:CategoryWise" element={<ProductWiseCate/>}/>
-    <Route path="/Privecy" element={<Privecy/>}/>
-    <Route path="/Term" element={<Term/>}/>
-</Routes>
-</BrowserRouter>
-  
-  
+
+
+
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/Product-Sidebar" element={<ProductSidebar />} />
+        <Route path="/About" element={<About />} />
+        <Route path="/Blogs" element={<Blog />} />
+        <Route path="/User-Profile" element={<UserProfile />} />
+        <Route path="/compaire" element={<Compaire />} />
+        <Route path="/Order" element={<Order />} />
+        <Route path="/Contact" element={<Contact />} />
+        <Route path="/Product-info/:id" element={<ProductInfo />} />
+        <Route path="/productsidebar/:CategoryWise" element={<ProductWiseCate />} />
+        <Route path="/Privecy" element={<Privecy />} />
+        <Route path="/Term" element={<Term />} />
+      </Routes>
+    </BrowserRouter>
+
+
   </>;
 }
 export default App;

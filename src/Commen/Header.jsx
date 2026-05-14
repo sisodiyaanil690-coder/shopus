@@ -5,7 +5,7 @@ function Header() {
     <>
       {/*------------- header-section -------------*/}
       <header id="header" className="header">
-     
+
         <div className="header-center-section d-none d-lg-block">
           <div className="container">
             <div className="header-center">
@@ -15,7 +15,7 @@ function Header() {
                 </Link>
               </div>
               <div className="header-cart-items">
-               
+
 
                 {/* <div className="header-user">
                   <Link to="/User-Profile">
@@ -104,15 +104,15 @@ function Header() {
                 <div className="header-cart ">
                   <div className="header-compaire">
                     <a href="compaire.html" className="cart-item">
-                      
+
                     </a>
                   </div>
-                   <div className="logo" style={{width:"70px"}}>
-                <Link to="/">
-                  <img src="../assets/images/logos/logo.webp" alt="logo" />
-                </Link>
-              </div>
-              <hr></hr>
+                  <div className="logo" style={{ width: "70px" }}>
+                    <Link to="/">
+                      <img src="../assets/images/logos/logo.webp" alt="logo" />
+                    </Link>
+                  </div>
+                  <hr></hr>
                 </div>
                 <div className="shop-btn">
                   <button
@@ -142,7 +142,7 @@ function Header() {
               </div> */}
               <div className="category-dropdown">
                 <ul className="category-list">
-                    <li className="category-list-item">
+                  <li className="category-list-item">
                     <Link to="/">
                       <div className="dropdown-item d-flex justify-content-between align-items-center">
                         <div className="dropdown-list-item d-flex">
@@ -214,7 +214,7 @@ function Header() {
                       </div>
                     </Link>
                   </li>
-                       <li className="category-list-item">
+                  <li className="category-list-item">
                     <Link to="/About">
                       <div className="dropdown-item d-flex justify-content-between align-items-center">
                         <div className="dropdown-list-item d-flex">
@@ -250,7 +250,7 @@ function Header() {
                       </div>
                     </Link>
                   </li>
-                       <li className="category-list-item">
+                  <li className="category-list-item">
                     <Link to="/Contact">
                       <div className="dropdown-item d-flex justify-content-between align-items-center">
                         <div className="dropdown-list-item d-flex">
@@ -286,7 +286,7 @@ function Header() {
                       </div>
                     </Link>
                   </li>
-                  
+
                 </ul>
               </div>
             </div>
@@ -297,7 +297,7 @@ function Header() {
             <div className="header-nav">
               <div className="category-menu-section position-relative">
                 <div className="empty position-fixed" onclick="tooglmenu()" />
-               
+
 
               </div>
               <div className="header-nav-menu">
@@ -310,17 +310,17 @@ function Header() {
                   <li className="mega-menu">
                     <Link to="/Product-Sidebar">
                       <span className="list-text">Shop</span>
-             
+
                     </Link>
 
                   </li>
-                  
+
                   <li>
                     <Link to="/About">
                       <span className="list-text">About</span>
                     </Link>
                   </li>
-                 
+
 
                   <li>
                     <Link to="/Contact">

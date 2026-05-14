@@ -26,6 +26,11 @@ function Home() {
 
 
 function Component1() {
+    window.scrollTo({
+        top: 0,
+        left: 0,
+        behavior: "smooth"
+    })
     return (
         <>
             <section id="hero" class="hero hero-three">
@@ -293,11 +298,11 @@ function Component4() {
         }
     }
     useEffect(() => {
-         window.scrollTo({
-    top:0,
-    left:0,
-    behavior:"smooth"
-  })
+        window.scrollTo({
+            top: 0,
+            left: 0,
+            behavior: "smooth"
+        })
         Productt();
     }, [])
 

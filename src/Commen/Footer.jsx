@@ -208,12 +208,12 @@ function Footer() {
               <div className="col-lg-3 col-sm-6">
                 <div className="footer-order">
                   <div className="logo">
-                     <Link to="/">                    <img
+                    <Link to="/">                    <img
                       src="../assets/images/logos/footer-logo.webp"
                       alt="logo"
                     /></Link>
 
-                   
+
                   </div>
                   <div className="footer-link order-link">
                   </div>
@@ -277,7 +277,7 @@ function Footer() {
                           >
                             <circle
                               cx="21.9995"
-                              cy="22.9961"  
+                              cy="22.9961"
                               r="21.5"
                               stroke="#424242"
                             />
