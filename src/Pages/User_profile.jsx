@@ -180,7 +180,7 @@ function Component(){
                 </svg>
               </span>
               <span className="text">
-                Logout
+                <a href="#">Logout</a>
               </span>
             </a>
           </div>
